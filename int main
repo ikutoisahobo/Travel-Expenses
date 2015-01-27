@@ -1,6 +1,1 @@
-int daysSpent()
-int days = 0; 
-{
-cout << "Enter the days spent on the trip: " << endl;
-cin >> days;
-}
+
