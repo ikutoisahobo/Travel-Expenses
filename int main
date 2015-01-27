@@ -2,10 +2,20 @@
 
 using namespace std;
 
+int daysSpent();
+
+
 int main()
 {
-    cout << "Hello world!" << endl;
-    return 0;
+daysSpent();
+
+return 0;
     
 }
 
+int daysSpent()
+{
+    int days = 0; 
+    cout << "Enter the days spent on the trip: " << endl;
+    cin >> days;
+}
