@@ -1,4 +1,8 @@
 int departure()
 {
-
+double arriv,depart;
+cout << "What is the time or departure for the first day?" << endl;
+cin >> arriv;
+cout << "What is the time of departure on the last day?" << endl;
+cin >> depart;
 }
