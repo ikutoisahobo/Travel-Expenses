@@ -11,5 +11,5 @@ int   hotelExp()
     else
       cout << "The company paid for your expenses of $" << expenses << endl;
   if(totals < 0)
-  totals = 0
+  totals = 0;
 }
