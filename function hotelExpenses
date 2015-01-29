@@ -9,7 +9,7 @@ int   hotelExp()
     if(exp > 90)
       cout << "You owe $" << totals << "for lodging" << endl;
     else
-      cout << "The company paid for your expenses of $" << expenses << endl;
+      cout << "The company paid for your expenses of $" << exp << endl;
   if(totals < 0)
   totals = 0;
 }
