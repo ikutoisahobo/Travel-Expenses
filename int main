@@ -3,7 +3,7 @@
 using namespace std;
 
 int daysSpent();
-
+int   hotelExp();
 
 int main()
 {
@@ -18,4 +18,22 @@ int daysSpent()
     int days = 0; 
     cout << "Enter the days spent on the trip: " << endl;
     cin >> days;
+}
+
+
+
+int   hotelExp()
+{
+ const int initial = 90;
+ int exp;
+ double totals;
+ cout << "What were the expenses of your hotel?" << endl;
+ cin >> exp;
+ totals = exp - initial;
+    if(exp > 90)
+      cout << "You owe $" << totals << "for lodging" << endl;
+    else
+      cout << "The company paid for your expenses of $" << expenses << endl;
+  if(totals < 0)
+  totals = 0;
 }
