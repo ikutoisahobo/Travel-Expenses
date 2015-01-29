@@ -7,7 +7,7 @@ int   hotelExp()
  cin >> exp;
  totals = exp - initial;
     if(exp > 90)
-      cout << "You owe $" << totals << "for lodging" << endl;
+      cout << "You owe $" << totals << " for lodging" << endl;
     else
       cout << "The company paid for your expenses of $" << exp << endl;
   if(totals < 0)
