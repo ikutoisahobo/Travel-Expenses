@@ -1,7 +1,6 @@
 int daysSpent() //function for days spent
-int days = 0; 
 {
+int days = 0; // declaring variables
 cout << "Enter the days spent on the trip: " << endl; // prompts for user input
 cin >> days;
-
 }
