@@ -2,23 +2,23 @@
 
 using namespace std;
 
-int daysSpent();
+int daysSpent(); // function for days spent on trip
 int hotelExp();
 
 int main()
 {
 
-daysSpent();
+daysSpent(); //calling functions
 hotelExp();
 
 return 0;
     
 }
 
-int daysSpent()
+int daysSpent() 
 {
     int days = 0; 
-    cout << "Enter the days spent on the trip: " << endl;
+    cout << "Enter the days spent on the trip: " << endl; // prompts for user input
     cin >> days;
 }
 
