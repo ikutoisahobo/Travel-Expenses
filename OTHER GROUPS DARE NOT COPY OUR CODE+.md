@@ -2,4 +2,4 @@
 Group Project for CS2 H Period 2 - Advanced Technologies Academy 
 
 
-DO NOT COPY OUR CODE, OR ELSE. 
+# DO NOT COPY OUR CODE, OR ELSE. 
