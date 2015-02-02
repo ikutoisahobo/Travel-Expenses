@@ -1,7 +1,7 @@
-int daysSpent()
+int daysSpent() //function for days spent
 int days = 0; 
 {
-cout << "Enter the days spent on the trip: " << endl; // you need comments boy
+cout << "Enter the days spent on the trip: " << endl; // prompts for user input
 cin >> days;
 
 }
