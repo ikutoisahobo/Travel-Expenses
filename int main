@@ -24,18 +24,18 @@ int daysSpent()
 
 
 
-int   hotelExp()
+int hotelExp()
 {
- const int initial = 90;
+ const int initial = 90; // declaring variables
  int exp;
  double totals;
- cout << "What were the expenses of your hotel?" << endl;
+ cout << "What were the expenses of your hotel?" << endl; // asking people
  cin >> exp;
  totals = exp - initial;
-    if(exp > 90)
-      cout << "You owe $ " << totals << "for lodging" << endl;
+    if(exp > 90) // while expenses are greater than the amount paid for
+      cout << "You owe $" << totals << " for lodging" << endl; // enters the amount owed
     else
       cout << "The company paid for your expenses of $" << exp << endl;
-  if(totals < 0)
+  if(totals < 0) // if the company paid for all of the expenses
   totals = 0;
 }
