@@ -1,4 +1,8 @@
-int airfare()
+int airfare() //Finds airfare costs
 {
-
+double totalCost, airfare;
+cout << "What was your total airfare cost?";
+cin >> airfare;
+totalCost += airfare;
+return airfare;
 }
