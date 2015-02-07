@@ -1,4 +1,14 @@
-int miles()
+int miles() //driving costs
 {
-
+int decision
+double drivingExpenses, totalExpenses;
+cout << "Did you use a personel vehicle during your trip? (Enter 1 for yes, or 0 for no)\n";
+cin >> decision;
+if (decision == 1)
+  {cout << "How many miles did you drive during your trip?\n";
+  cin << miles;
+  drivingExpenses = miles * 0.27;
+  }
+  totalExpenses += drivingExpenses;
+  return totalExpenses;
 }
