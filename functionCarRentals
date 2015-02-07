@@ -1,4 +1,8 @@
-int carRentals()
+int carRentals() //finds car rental cost
 {
-
+double carRentals, totalCost;
+cout << "How much did you spend on car rentals during your trip?\n";
+cin >> carRentals;
+totalCost += carRentals;
+return totalCost;
 }
